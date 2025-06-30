@@ -52,3 +52,4 @@ ai_remixes_demo/
 !jgb_demo_package/sample_audio/
 !ai_remixes_output/README.md
 !ai_remixes_output/index.html
+!ai_remixes_output/*.wav
