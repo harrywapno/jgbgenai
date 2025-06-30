@@ -1,0 +1,50 @@
+{
+  "project_name": "JGB Real Audio Remixer",
+  "description": "GPU-accelerated Jerry Garcia Band audio remixing tool",
+  "version": "1.0.0",
+  "created": "2025-06-30T21:03:04.451928",
+  "features": [
+    "Real-time tempo matching",
+    "Key transposition",
+    "GPU acceleration with NVIDIA B200",
+    "Seamless crossfading",
+    "Automatic track analysis"
+  ],
+  "remixes_included": [
+    {
+      "name": "JGB Classic Remix",
+      "file": "jgb_classic_remix.wav",
+      "tracks": [
+        "Fire on the Mountain",
+        "Scarlet Begonias",
+        "Deal"
+      ],
+      "tempo": 125,
+      "key": "G",
+      "duration_seconds": 482.7
+    },
+    {
+      "name": "JGB Psychedelic Mix",
+      "file": "jgb_psychedelic_mix.wav",
+      "tracks": [
+        "Sugaree",
+        "Eyes of the World",
+        "Tangled Up in Blue"
+      ],
+      "tempo": 110,
+      "key": "A",
+      "duration_seconds": 492.8
+    }
+  ],
+  "technical_specs": {
+    "gpu": "NVIDIA B200 (183GB memory)",
+    "audio_processing": "librosa + PyTorch",
+    "sample_rate": 22050,
+    "audio_formats": [
+      "FLAC",
+      "WAV",
+      "MP3"
+    ],
+    "gpu_acceleration": "CUDA 12.8"
+  }
+}
