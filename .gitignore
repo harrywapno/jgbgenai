@@ -3,6 +3,8 @@
 *.mp3
 *.flac
 *.ogg
+*.m4a
+*.aac
 
 # Python
 __pycache__/
@@ -26,10 +28,27 @@ Thumbs.db
 *.swp
 *.swo
 
-# Large collections
+# Large collections and data
 jgb_collection/
 *_collection/
+jgb_enhanced_demo/
+batch_downloads/
+ai_remixes_demo/
+
+# Large data files
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Logs (ignore most)
+*.log
+!README*.md
 
 # Keep sample audio but ignore large collections
 !sample_audio/
 !jgb_demo_package/sample_audio/
+!ai_remixes_output/README.md
+!ai_remixes_output/index.html
